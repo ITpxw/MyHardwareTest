@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/buttom_bar_group"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout style="@style/ButtomBar">
+
+            <ImageButton
+                android:id="@+id/buttom_baseinfo"
+                style="@style/ButtomBarImgBtn"
+                android:background="@drawable/bar_baseinfo"
+                android:contentDescription="@string/app_name" />
+            <TextView
+                android:id="@+id/tv_baseinfo"
+                android:text="基本信息"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttom_baseinfo"
+                android:layout_marginLeft="66dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/ButtomBar">
+
+            <ImageButton
+                android:id="@+id/buttom_nettest"
+                style="@style/ButtomBarImgBtn"
+                android:background="@drawable/bar_nettest"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_nettest"
+                android:text="网络测试"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttom_nettest"
+                android:layout_marginLeft="66dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/ButtomBar">
+
+            <ImageButton
+                android:id="@+id/buttom_interfacetest"
+                style="@style/ButtomBarImgBtn"
+                android:background="@drawable/bar_interfacetest"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_interfacetest"
+                android:text="接口模块测试"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttom_interfacetest"
+                android:layout_marginLeft="50dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/ButtomBar">
+
+            <ImageButton
+                android:id="@+id/buttom_ledspk"
+                style="@style/ButtomBarImgBtn"
+                android:background="@drawable/bar_ledspk"
+                android:contentDescription="@string/app_name" />
+            <TextView
+                android:id="@+id/tv_ledspk"
+                android:text="声光测试"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttom_ledspk"
+                android:layout_marginLeft="66dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/buttom_bar_group"
+        android:background="@color/devide_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@id/line">
+
+        <com.strong.hardwaretest.view.TitleBarView
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="65dp" />
+
+        <FrameLayout
+            android:id="@+id/fl_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</RelativeLayout>

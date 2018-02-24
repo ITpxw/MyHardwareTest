@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/Android/ASProjects/My_App/HardwareTest/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\pxw\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\Android\\ASProjects\\My_App\\HardwareTest\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+	],
+	"libraries" : 
+	{
+		"HardwareTest-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "HardwareTest",
+			"buildCommand" : "C:\\Users\\pxw\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\Android\\ASProjects\\My_App\\HardwareTest\\.externalNativeBuild\\cmake\\release\\x86_64 --target HardwareTest",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/Users/pxw/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/pxw/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64 -DHardwareTest_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/Android/ASProjects/My_App/HardwareTest/src/main/cpp/HardwareTest.c",
+					"workingDirectory" : "D:/Android/ASProjects/My_App/HardwareTest/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "D:/Android/ASProjects/My_App/HardwareTest/build/intermediates/cmake/release/obj/x86_64/libHardwareTest.so",
+			"toolchain" : "4110792801"
+		}
+	},
+	"toolchains" : 
+	{
+		"4110792801" : 
+		{
+			"cCompilerExecutable" : "C:/Users/pxw/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/pxw/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

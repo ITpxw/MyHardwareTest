@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#dfdfdf" />
+
+        <Button
+            android:id="@+id/btn_ethernet"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/background_style"
+            android:text="以太网测试"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#dfdfdf" />
+
+        <Button
+            android:id="@+id/btn_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/background_style"
+            android:text="WiFi测试"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#dfdfdf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_bt_open"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="@drawable/background_style"
+                android:text="蓝牙打开"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btn_bt_search"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="@drawable/background_style"
+                android:text="蓝牙搜索"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btn_bt_close"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="@drawable/background_style"
+                android:text="蓝牙关闭"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#dfdfdf" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp">
+
+            <TextView
+                android:id="@+id/tv_netinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

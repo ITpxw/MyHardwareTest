@@ -1,0 +1,13 @@
+# ninja log v5
+0	181	0	CMakeFiles/HardwareTest.dir/src/main/cpp/HardwareTest.c.o	95dbfa2ada0759d5
+193	436	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libHardwareTest.so	e96305ad4897dca2
+36	600	0	CMakeFiles/HardwareTest.dir/src/main/cpp/HardwareTest.c.o	95dbfa2ada0759d5
+601	953	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libHardwareTest.so	e96305ad4897dca2
+3	122	0	CMakeFiles/HardwareTest.dir/src/main/cpp/HardwareTest.c.o	95dbfa2ada0759d5
+122	195	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libHardwareTest.so	e96305ad4897dca2
+2	680	0	CMakeFiles/HardwareTest.dir/src/main/cpp/HardwareTest.c.o	95dbfa2ada0759d5
+681	1067	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libHardwareTest.so	e96305ad4897dca2
+20	543	0	CMakeFiles/HardwareTest.dir/src/main/cpp/HardwareTest.c.o	95dbfa2ada0759d5
+544	849	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libHardwareTest.so	e96305ad4897dca2
+2	415	0	CMakeFiles/HardwareTest.dir/src/main/cpp/HardwareTest.c.o	95dbfa2ada0759d5
+416	950	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libHardwareTest.so	e96305ad4897dca2

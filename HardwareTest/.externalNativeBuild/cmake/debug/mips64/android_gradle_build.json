@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/Android/ASProjects/My_App/HardwareTest/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\pxw\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\Android\\ASProjects\\My_App\\HardwareTest\\.externalNativeBuild\\cmake\\debug\\mips64 --target clean"
+	],
+	"libraries" : 
+	{
+		"HardwareTest-Debug-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "HardwareTest",
+			"buildCommand" : "C:\\Users\\pxw\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\Android\\ASProjects\\My_App\\HardwareTest\\.externalNativeBuild\\cmake\\debug\\mips64 --target HardwareTest",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=C:/Users/pxw/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/pxw/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips64 -DHardwareTest_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/Android/ASProjects/My_App/HardwareTest/src/main/cpp/HardwareTest.c",
+					"workingDirectory" : "D:/Android/ASProjects/My_App/HardwareTest/.externalNativeBuild/cmake/debug/mips64"
+				}
+			],
+			"output" : "D:/Android/ASProjects/My_App/HardwareTest/build/intermediates/cmake/debug/obj/mips64/libHardwareTest.so",
+			"toolchain" : "4110792801"
+		}
+	},
+	"toolchains" : 
+	{
+		"4110792801" : 
+		{
+			"cCompilerExecutable" : "C:/Users/pxw/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/pxw/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

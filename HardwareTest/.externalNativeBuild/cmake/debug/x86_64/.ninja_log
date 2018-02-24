@@ -1,0 +1,13 @@
+# ninja log v5
+1	262	0	CMakeFiles/HardwareTest.dir/src/main/cpp/HardwareTest.c.o	2dd13f44ebcded8d
+264	561	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libHardwareTest.so	9f9d2cbffe054632
+14	307	0	CMakeFiles/HardwareTest.dir/src/main/cpp/HardwareTest.c.o	2dd13f44ebcded8d
+308	742	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libHardwareTest.so	9f9d2cbffe054632
+3	104	0	CMakeFiles/HardwareTest.dir/src/main/cpp/HardwareTest.c.o	2dd13f44ebcded8d
+105	182	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libHardwareTest.so	9f9d2cbffe054632
+3	400	0	CMakeFiles/HardwareTest.dir/src/main/cpp/HardwareTest.c.o	2dd13f44ebcded8d
+400	839	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libHardwareTest.so	9f9d2cbffe054632
+3	216	0	CMakeFiles/HardwareTest.dir/src/main/cpp/HardwareTest.c.o	2dd13f44ebcded8d
+216	509	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libHardwareTest.so	9f9d2cbffe054632
+2	167	0	CMakeFiles/HardwareTest.dir/src/main/cpp/HardwareTest.c.o	2dd13f44ebcded8d
+167	786	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libHardwareTest.so	9f9d2cbffe054632

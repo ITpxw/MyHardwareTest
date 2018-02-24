@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/Android/ASProjects/My_App/HardwareTest/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\pxw\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\Android\\ASProjects\\My_App\\HardwareTest\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"HardwareTest-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "HardwareTest",
+			"buildCommand" : "C:\\Users\\pxw\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\Android\\ASProjects\\My_App\\HardwareTest\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target HardwareTest",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/pxw/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/pxw/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -DHardwareTest_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/Android/ASProjects/My_App/HardwareTest/src/main/cpp/HardwareTest.c",
+					"workingDirectory" : "D:/Android/ASProjects/My_App/HardwareTest/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "D:/Android/ASProjects/My_App/HardwareTest/build/intermediates/cmake/debug/obj/armeabi-v7a/libHardwareTest.so",
+			"toolchain" : "4110792801"
+		}
+	},
+	"toolchains" : 
+	{
+		"4110792801" : 
+		{
+			"cCompilerExecutable" : "C:/Users/pxw/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/pxw/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

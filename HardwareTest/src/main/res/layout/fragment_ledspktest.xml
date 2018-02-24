@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_ledstest"
+            android:text="报警灯测试"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/background_style"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#dfdfdf"/>
+        <Button
+            android:id="@+id/btn_spktest"
+            android:text="扬声器测试"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/background_style"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
